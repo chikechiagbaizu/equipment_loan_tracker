@@ -2,7 +2,7 @@
     'name': 'Equipment Loan Tracker',
     'summary': 'Equipment Loan Tracker',
     'description': """
-    An internal tool for tracking company equipment (laptops, tools, etc.) loaned out to employees.
+    An Odoo module for tracking company equipment (laptops, tools, and other assets) loaned out to employees — who has what, since when, and what it's costing.
     """,
     'author': 'Chike Chiagbaizu',
     'maintainer': 'Chike Chiagbaizu',
