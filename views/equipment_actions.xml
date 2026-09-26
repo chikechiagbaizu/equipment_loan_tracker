@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="action_equipment_loan" model="ir.actions.act_window">
+            <field name="name">Equipment Loans</field>
+            <field name="res_model">equipment.loan</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <record id="action_equipment_item" model="ir.actions.act_window">
+            <field name="name">Equipment</field>
+            <field name="res_model">equipment.item</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

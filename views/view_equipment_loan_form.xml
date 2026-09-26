@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="equipment_loan_form_view" model="ir.ui.view">
+            <field name="name">equipment.loan.form.view</field>
+            <field name="model">equipment.loan</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="action_mark_returned" string="Mark Returned" type="object"
+                            class="btn-primary" invisible="state != 'ongoing'" />
+                    </header>
+                    <sheet>
+                        <group>
+                            <field name="employee_id" />
+                            <field name="equipment_id" />
+                            <field name="daily_rate" />
+                            <field name="loan_date" />
+                            <field name="return_date" />
+                            <field name="duration_days" />
+                            <field name="total_cost" />
+                            <field name="state" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

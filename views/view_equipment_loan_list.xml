@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="equipment_loan_list_view" model="ir.ui.view">
+            <field name="name">equipment.loan.list.view</field>
+            <field name="model">equipment.loan</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="employee_id" />
+                    <field name="equipment_id" />
+                    <field name="daily_rate" />
+                    <field name="loan_date" />
+                    <field name="return_date" />
+                    <field name="duration_days" />
+                    <field name="total_cost" />
+                    <field name="state"
+                        widget="badge"
+                        decoration-warning="state == 'ongoing'"
+                        decoration-success="state == 'returned'" />
+                </list>
+            </field>
+        </record>
+    </data>
+</odoo>

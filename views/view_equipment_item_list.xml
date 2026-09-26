@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="equipment_item_list_view" model="ir.ui.view">
+            <field name="name">equipment.item.list.view</field>
+            <field name="model">equipment.item</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="name" />
+                    <field name="category" />
+                    <field name="daily_rate" />
+                    <field name="active" />
+                </list>
+            </field>
+        </record>
+    </data>
+</odoo>

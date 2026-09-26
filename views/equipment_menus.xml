@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <menuitem id="menu_equipment_root" name="Equipment Loans" sequence="10"
+            web_icon="equipment_loan_tracker,static/description/icon.png" />
+
+        <menuitem id="menu_equipment_loan"
+            name="Loans"
+            parent="menu_equipment_root"
+            action="action_equipment_loan"
+            sequence="10" />
+
+        <menuitem id="menu_equipment_config"
+            name="Configuration"
+            parent="menu_equipment_root"
+            sequence="90" />
+
+        <menuitem id="menu_equipment_item"
+            name="Equipment"
+            parent="menu_equipment_config"
+            action="action_equipment_item"
+            sequence="10" />
+    </data>
+</odoo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="group_equipment_manager" model="res.groups">
+            <field name="name">Equipment Loan Manager</field>
+        </record>
+    </data>
+</odoo>

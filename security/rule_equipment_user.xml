@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record id="rule_equipment_loan_user" model="ir.rule">
+            <field name="name">Equipment Loan: User Access</field>
+            <field name="model_id" ref="model_equipment_loan" />
+            <field name="domain_force">[('employee_id','=',user.id)]</field>
+            <field name="groups" eval="[(4, ref('base.group_user'))]" />
+            <field name="perm_read" eval="True" />
+            <field name="perm_write" eval="False" />
+            <field name="perm_create" eval="False" />
+            <field name="perm_unlink" eval="False" />
+        </record>
+    </data>
+</odoo>
