@@ -10,9 +10,13 @@
                     <header>
                         <button name="action_mark_returned" string="Mark Returned" type="object"
                             class="btn-primary" invisible="state != 'ongoing'" />
+                        <button name="action_mark_cancelled" string="Cancel Return" type="object"
+                            class="btn-danger" invisible="state != 'returned'" />
+                        <field name="state" widget="statusbar" />
                     </header>
                     <sheet>
                         <group>
+                            <field name="name" />
                             <field name="employee_id" />
                             <field name="equipment_id" />
                             <field name="daily_rate" />

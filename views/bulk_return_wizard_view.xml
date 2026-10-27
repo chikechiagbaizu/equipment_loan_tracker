@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <record id="bulk_return_wizard_form_view" model="ir.ui.view">
+        <field name="name">bulk.return.wizard.form.view</field>
+        <field name="model">bulk.return.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="return_date" />
+                </group>
+                <footer>
+                    <button name="action_bulk_return" string="Confirm Return" type="object"
+                        class="btn-primary" />
+                    <button string="Cancel" type="object" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

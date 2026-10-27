@@ -1,0 +1,77 @@
+<section
+    style="font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:24px;line-height:1.6;color:#222;background:#fff">
+
+    <header style="border-bottom:3px solid #714B67;padding-bottom:12px;margin-bottom:20px">
+        <h1 style="margin:0 0 6px;color:#714B67">Equipment Loan Tracker</h1>
+        <p style="margin:0;font-size:1.05em;color:#444">
+            Know who has which company equipment, since when, for how long, and what it costs.
+        </p>
+    </header>
+
+    <h2 style="color:#714B67">Features</h2>
+    <ul>
+        <li><b>Equipment register:</b> laptops, projectors, tools, safety gear and vehicles, each with a category and a
+            daily rate.</li>
+        <li><b>Auto reference:</b> every loan gets a unique number, e.g. <code>LOAN/2026/00001</code>.</li>
+        <li><b>Smart dates:</b> enter a return date and the duration is calculated, or enter the number of days and the
+            return date is set for you.</li>
+        <li><b>Automatic cost:</b> total cost = duration &times; daily rate, with a minimum of 1 billable day.</li>
+        <li><b>Overload warning:</b> a heads-up when an employee already has 2 or more active loans.</li>
+        <li><b>Bulk Return:</b> select several loans, pick one return date, and close them all in one step.</li>
+    </ul>
+
+    <h2 style="color:#714B67">Built-in checks</h2>
+    <ul>
+        <li>Equipment that is already out on an ongoing loan cannot be loaned again until it is returned.</li>
+        <li>The return date cannot be before the loan date.</li>
+        <li>The same employee cannot borrow the same item on the same date twice.</li>
+        <li>Loan duration must be at least 1 day.</li>
+    </ul>
+
+    <h2 style="color:#714B67">Equipment categories</h2>
+    <table style="width:100%;border-collapse:collapse;margin-bottom:8px">
+        <tr style="background:#f4eef3">
+            <th style="text-align:left;padding:8px;border:1px solid #ddd">Category</th>
+            <th style="text-align:left;padding:8px;border:1px solid #ddd">Examples</th>
+        </tr>
+        <tr>
+            <td style="padding:8px;border:1px solid #ddd">IT and Computing</td>
+            <td style="padding:8px;border:1px solid #ddd">Laptops, monitors, tablets</td>
+        </tr>
+        <tr>
+            <td style="padding:8px;border:1px solid #ddd">Audio-Visual and Presentation</td>
+            <td style="padding:8px;border:1px solid #ddd">Projectors, screens, speakers, microphones</td>
+        </tr>
+        <tr>
+            <td style="padding:8px;border:1px solid #ddd">Tools and Maintenance</td>
+            <td style="padding:8px;border:1px solid #ddd">Drills, multimeters, generators</td>
+        </tr>
+        <tr>
+            <td style="padding:8px;border:1px solid #ddd">Safety and Protective</td>
+            <td style="padding:8px;border:1px solid #ddd">Helmets, vests, harnesses, first aid kits</td>
+        </tr>
+        <tr>
+            <td style="padding:8px;border:1px solid #ddd">Vehicles and Transport</td>
+            <td style="padding:8px;border:1px solid #ddd">Pickups, staff buses, pallet jacks</td>
+        </tr>
+    </table>
+
+    <h2 style="color:#714B67">Access rights</h2>
+    <ul>
+        <li><b>Equipment Managers:</b> see and manage all loans and equipment.</li>
+        <li><b>Regular users:</b> see and edit only their own loans.</li>
+    </ul>
+
+    <h2 style="color:#714B67">How to use</h2>
+    <ol>
+        <li>Add equipment under <b>Equipment Loans &rarr; Configuration &rarr; Equipment</b>.</li>
+        <li>Create a loan under <b>Equipment Loans &rarr; Loans</b>, choose the employee and equipment, then set the
+            return date or the duration in days.</li>
+        <li>When the item comes back, click <b>Mark Returned</b>.</li>
+        <li>To close several loans at once, tick them in the list and use <b>Bulk Return</b>.</li>
+    </ol>
+
+    <footer style="margin-top:28px;padding-top:12px;border-top:1px solid #eee;color:#666;font-size:.9em">
+        Odoo 19.0 &nbsp;|&nbsp; LGPL-3 &nbsp;|&nbsp; Author: Chike Chiagbaizu
+    </footer>
+</section>

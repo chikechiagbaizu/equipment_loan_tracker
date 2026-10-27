@@ -7,6 +7,11 @@
             <field name="model">equipment.loan</field>
             <field name="arch" type="xml">
                 <list>
+                    <header>
+                        <button name="%(action_bulk_return_wizard)d" type="action"
+                            string="Bulk Return" class="btn-primary" />
+                    </header>
+                    <field name="name" />
                     <field name="employee_id" />
                     <field name="equipment_id" />
                     <field name="daily_rate" />

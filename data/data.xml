@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo noupdate="1">
+    <!-- IT Computing -->
+    <record id="it_computing_elitebook" model="equipment.item">
+        <field name="name">HP EliteBook 840 Laptop</field>
+        <field name="category">it_computing</field>
+        <field name="daily_rate">3500</field>
+    </record>
+    <record id="it_computing_latitude" model="equipment.item">
+        <field name="name">Dell Latitude 5420 Laptop</field>
+        <field name="category">it_computing</field>
+        <field name="daily_rate">3500</field>
+    </record>
+    <record id="it_computing_thinkpad" model="equipment.item">
+        <field name="name">Lenovo ThinkPad T14 Laptop</field>
+        <field name="category">it_computing</field>
+        <field name="daily_rate">3500</field>
+    </record>
+    <record id="it_computing_dell_monitor" model="equipment.item">
+        <field name="name">Dell 24-inch Monitor</field>
+        <field name="category">it_computing</field>
+        <field name="daily_rate">3000</field>
+    </record>
+    <record id="it_computing_samsung" model="equipment.item">
+        <field name="name">Samsung Galaxy Tab A8</field>
+        <field name="category">it_computing</field>
+        <field name="daily_rate">3000</field>
+    </record>
+
+    <!-- Audio-Visual and Presentation Equipment -->
+    <record id="audio_visual_epson" model="equipment.item">
+        <field name="name">Epson EB-X06 Projector</field>
+        <field name="category">audio_visual</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="audo_visual_projector_screen" model="equipment.item">
+        <field name="name">Portable Projector Screen (tripod, 84-inch)</field>
+        <field name="category">audio_visual</field>
+        <field name="daily_rate">3000</field>
+    </record>
+    <record id="audo_visual_jbl_partybox" model="equipment.item">
+        <field name="name">JBL PartyBox Portable Speaker</field>
+        <field name="category">audio_visual</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="audo_visual_dell_shure_sm58" model="equipment.item">
+        <field name="name">Shure SM58 Wireless Microphone Set</field>
+        <field name="category">audio_visual</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="audo_visual_logitech" model="equipment.item">
+        <field name="name">Logitech C920 HD Webcam</field>
+        <field name="category">audio_visual</field>
+        <field name="daily_rate">5000</field>
+    </record>
+
+    <!-- Tools and Maintenance Equipment -->
+    <record id="tools_maintenance_epson" model="equipment.item">
+        <field name="name">Bosch Cordless Drill</field>
+        <field name="category">tools_maintenance</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="tools_maintenance_fluke_117" model="equipment.item">
+        <field name="name">Digital Multimeter (Fluke 117)</field>
+        <field name="category">tools_maintenance</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="tools_maintenance_makita_9557" model="equipment.item">
+        <field name="name">Angle Grinder (Makita 9557)</field>
+        <field name="category">tools_maintenance</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="tools_maintenance_stanley_120" model="equipment.item">
+        <field name="name">Stanley 120-Piece Tool Kit</field>
+        <field name="category">tools_maintenance</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="tools_maintenance_portable_petrol" model="equipment.item">
+        <field name="name">Portable Petrol Generator (Tiger or Elepaq 2.5kVA)</field>
+        <field name="category">tools_maintenance</field>
+        <field name="daily_rate">5000</field>
+    </record>
+
+    <!-- Safety and Protective Equipment -->
+    <record id="safety_protective_safety_helmet" model="equipment.item">
+        <field name="name">Safety Helmet (hard hat)</field>
+        <field name="category">safety_protective</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="safety_protective_reflective_vest" model="equipment.item">
+        <field name="name">High-Visibility Reflective Vest</field>
+        <field name="category">safety_protective</field>
+        <field name="daily_rate">3000</field>
+    </record>
+    <record id="safety_protective_safety_boots" model="equipment.item">
+        <field name="name">Safety Boots (steel toe)</field>
+        <field name="category">safety_protective</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="safety_protective_fullbody_safety" model="equipment.item">
+        <field name="name">Full-Body Safety Harness</field>
+        <field name="category">safety_protective</field>
+        <field name="daily_rate">5000</field>
+    </record>
+    <record id="safety_protective_first_aid_kit" model="equipment.item">
+        <field name="name">First Aid Kit (workplace grade)</field>
+        <field name="category">safety_protective</field>
+        <field name="daily_rate">5000</field>
+    </record>
+
+    <!-- Vehicles and Transport Equipment -->
+    <record id="vehicles_transport_toyota_hilux" model="equipment.item">
+        <field name="name">Toyota Hilux Pickup</field>
+        <field name="category">vehicles_transport</field>
+        <field name="daily_rate">20000</field>
+    </record>
+    <record id="vehicles_transport_toyota_hiace" model="equipment.item">
+        <field name="name">Toyota Hiace Staff Bus</field>
+        <field name="category">vehicles_transport</field>
+        <field name="daily_rate">20000</field>
+    </record>
+    <record id="vehicles_transport_toyota_corolla" model="equipment.item">
+        <field name="name">Toyota Corolla Pool Car</field>
+        <field name="category">vehicles_transport</field>
+        <field name="daily_rate">20000</field>
+    </record>
+    <record id="vehicles_transport_hand_pallet" model="equipment.item">
+        <field name="name">Hand Pallet Jack (2.5 tonne)</field>
+        <field name="category">vehicles_transport</field>
+        <field name="daily_rate">20000</field>
+    </record>
+    <record id="vehicles_transport_first_platform_trolley" model="equipment.item">
+        <field name="name">Platform Trolley</field>
+        <field name="category">vehicles_transport</field>
+        <field name="daily_rate">20000</field>
+    </record>
+</odoo>
